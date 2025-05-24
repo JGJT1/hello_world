@@ -1,0 +1,75 @@
+.leetBox{
+  text-align: left;
+  padding: 2em 4em;
+  margin: 1em;
+  background-color: #1c1c1c;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.36);
+}
+.leetBox p{
+  margin: 1em 0;
+  font-size: 1.2rem;
+}
+.dificulty{
+  display: inline-block;
+  color: rgb(0, 233, 0);
+  background-color: green;
+  padding: 5px; 
+  border-radius: 5px;
+  margin-top: 1em;
+}
+.code{
+  background-color: rgb(183, 183, 183);
+  font-family: monospace;
+  border-radius: 5px;
+  padding: 0 5px;
+  color: rgb(59, 59, 59);
+}
+.example{
+  background-color: rgb(24, 24, 24);
+  padding: 1rem;
+  border-radius: 1em;
+}
+.example p{
+  margin-left: 1em;
+  font-family: monospace;
+  color: rgb(183, 183, 183);
+}
+.example strong{
+  color: white;
+}
+.leetBox h2{
+  margin: 1em 0;
+}
+.leetBox form {
+  font-size: 1.2rem;
+}
+.leetBox form input[type="text"]{
+  background-color: gray;
+  border-radius: 1em;
+  padding: .2em 1em;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.leetBox form input[type="text"]::placeholder{
+  color: rgba(255, 255, 255, 0.538);
+  text-align: center;
+}
+
+.leetBox form button{
+  background-color: rgb(255, 255, 129);
+  border: none;
+  color: black;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.output{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: block;
+}
