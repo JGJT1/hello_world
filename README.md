@@ -22,7 +22,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Details
 
-This project is about an site whith leet code problems with it solution.
+This project is about an site whith leet code problems with its solutions.
 
 This project has an educational purpose only, just for me to practice simples tasks in NextJS
 
