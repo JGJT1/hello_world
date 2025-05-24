@@ -54,7 +54,17 @@ export default function leet1(){
         [ <input placeholder='1,7,3,6,5,6' name='array' type="text" /> ]
         <button type='submit'>Enviar</button>
       </form>
-      <span id='output' className={styles.output}>The Pivot Index is <strong>{output}</strong></span>
+      {output != '' ? (
+        <span id='output' className={styles.output}>The Pivot Index is <span className={styles.code}><strong>{output}</strong></span></span>
+        ): (<span></span>)}
+      {/* <span id='output' className={styles.output}>The Pivot Index is <span className={styles.code}><strong>{output}</strong></span></span> */}
+      <div>
+        <h2>Explicação</h2>
+          <p>Primeiramente separe o array entre esquerda e direita.</p>
+          <p>Depois faça um somatorio de todo o array para assumir o valor da direita.</p>
+          <p>Iterando sobre o array se segue a seguinte lógica: subtrai-se o valor da direita pelo item atual do array, a fim de descartar o item atual que não participa da contagem como a questão elabora.</p> 
+          <p>Verifica-se se direita e esquerda são iguais, se sim este é o <span className={styles.code}>Pivot Index</span>, do contrário soma-se o valor atual do array para a esquerda e o loop seguirá.</p>
+      </div>
     </div>
   )
 }
