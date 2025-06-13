@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function leet1(){
   const [output, setOutput] = useState('')
 
-  function resolucion(e){
+  function solucion(e){
     e.preventDefault()
     const formData = new FormData(e.target)
     const raw = formData.get('array'); 
@@ -49,7 +49,7 @@ export default function leet1(){
         </div>
       </div>
       <h2>Resolução de Find Pivot Index</h2>
-      <form onSubmit={resolucion}>
+      <form onSubmit={solucion}>
         <label htmlFor="array">nums = </label>
         [ <input placeholder='1,7,3,6,5,6' name='array' type="text" /> ]
         <button type='submit'>Enviar</button>
@@ -57,7 +57,6 @@ export default function leet1(){
       {output != '' ? (
         <span id='output' className={styles.output}>The Pivot Index is <span className={styles.code}><strong>{output}</strong></span></span>
         ): (<span></span>)}
-      {/* <span id='output' className={styles.output}>The Pivot Index is <span className={styles.code}><strong>{output}</strong></span></span> */}
       <div>
         <h2>Explicação</h2>
           <p>Primeiramente separe o array entre esquerda e direita.</p>

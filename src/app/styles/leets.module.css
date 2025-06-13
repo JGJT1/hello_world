@@ -44,7 +44,7 @@
 .leetBox form {
   font-size: 1.2rem;
 }
-.leetBox form input[type="text"]{
+.leetBox form input{
   background-color: gray;
   border-radius: 1em;
   padding: .2em 1em;
@@ -53,7 +53,7 @@
   text-align: center;
 }
 
-.leetBox form input[type="text"]::placeholder{
+.leetBox form input::placeholder{
   color: rgba(255, 255, 255, 0.538);
   text-align: center;
 }
