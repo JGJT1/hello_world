@@ -31,7 +31,7 @@ export default function leet1(){
 
   return(
     <div className={styles.leetBox}>
-      <h1>1.Find Pivot Index</h1>
+      <h1>Find Pivot Index</h1>
       <span className={styles.dificulty}>Easy</span>
       <p>Given an array of integers <span className={styles.code}>nums</span>, calculate the <strong>pivot index</strong> of this <span className={styles.code}>array</span>.</p>
       <p>The <strong>pivot index</strong> is the index where the sum of all the numbers <strong>strictly</strong> to the index's right.</p>

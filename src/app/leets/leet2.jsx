@@ -32,6 +32,7 @@ export default function Leet2() {
   return (
     <div className={styles.leetBox}>
       <h1>Two Sum</h1>
+      <span className={styles.dificulty}>Easy</span>
       <p>
         Given an array of integers <span className={styles.code}>nums</span> and an integer <span className={styles.code}>target</span>, return indices of the two numbers such that they add up to <span className={styles.code}>target</span>.
       </p>
